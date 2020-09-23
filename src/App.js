@@ -1,6 +1,4 @@
 import React from 'react';
-import "./Assets/css/header.css";
-import "./Assets/css/default.min.css";
 import Header from "./Components/headerComponent/header";
 import Footer from "./Components/footerComponent/footer";
 import Homepage from "./Components/pages/homepage";

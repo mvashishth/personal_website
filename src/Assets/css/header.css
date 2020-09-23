@@ -1,17 +1,12 @@
 
 
-body {
-    font-size: 16px;
-  font-family: 'Open Sans';
+.bodyHeader {
+
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
-  color: black;
-  background-color: white;
-  margin: 0;
-  padding: 0;
 }
 
 body::-webkit-scrollbar {
@@ -26,6 +21,7 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
+
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
@@ -33,6 +29,10 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
   width: 5rem;
   display: block;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  position: absolute;
+  left: 0;
 }
 
 .navbar-nav {
@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   color: var(--text-secondary);
   background: var(--bg-secondary);
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   letter-spacing: 0.3ch;
   width: 100%;
 }

@@ -4,8 +4,8 @@
 
   --text-primary: #f79071;
   --text-secondary: #fa744f;
-  --bg-primary: #0f4c75;
-  --bg-secondary: #1b262c;
+  --bg-primary: #252527;
+  --bg-secondary: #131316;
   --transition-speed: 600ms;
 }
 
@@ -123,6 +123,7 @@ body::-webkit-scrollbar-thumb {
 /* Small screens */
 @media only screen and (max-width: 600px) {
   .navbar {
+    position: fixed;
     bottom: 0;
     width: 100vw;
     height: 5rem;

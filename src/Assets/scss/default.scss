@@ -1,11 +1,40 @@
+
 main {
   margin-left: 5rem;
-  padding: 1rem;
+  
 }
 
 @media only screen and (max-width: 600px) {
 
   main {
+  	padding-top: 0;
+  	padding-bottom: 0;
     margin: 0;
-  }
 }
+
+}
+
+html{
+	height: 100%;
+	background-color: #f8f3d4;
+}
+
+.intro-box{
+	width: 40vw;
+	margin-left: 30vw;
+	margin-top: 25vh;
+	height:50vh;
+}
+
+@media only screen and (max-width: 1440px) {
+.intro-box{
+	width: 60vw;
+	margin-left: 20vw;
+	margin-top: 25vh;
+	height:50vh;
+}
+
+
+}
+
+

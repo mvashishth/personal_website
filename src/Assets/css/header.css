@@ -2,10 +2,10 @@
 
 .bodyHeader {
 
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --text-primary: #f79071;
+  --text-secondary: #fa744f;
+  --bg-primary: #0f4c75;
+  --bg-secondary: #1b262c;
   --transition-speed: 600ms;
 }
 
@@ -56,7 +56,7 @@ body::-webkit-scrollbar-thumb {
   height: 5rem;
   color: var(--text-primary);
   text-decoration: none;
-  filter: grayscale(100%) opacity(0.7);
+  filter: grayscale(100%) opacity(1) ;
   transition: var(--transition-speed);
 }
 
@@ -69,6 +69,7 @@ body::-webkit-scrollbar-thumb {
 .link-text {
   display: none;
   margin-left: 1rem;
+  font-weight: bold;
 }
 
 .nav-link svg {
@@ -78,11 +79,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .fa-primary {
-  color: #ff7eee;
+  color: #f79071;
 }
 
 .fa-secondary {
-  color: #df49a6;
+  color: #fa744f;
 }
 
 .fa-primary,

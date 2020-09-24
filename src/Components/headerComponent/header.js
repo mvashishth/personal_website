@@ -8,8 +8,8 @@ function Header() {
 <header>
 
 <body className="bodyHeader">
-<nav className="navbar">
-    <ul className="navbar-nav">
+<nav className="navbarc" style={{zIndex:"1000"}}>
+    <ul className="navbarc-nav">
 
 
 
@@ -20,9 +20,9 @@ function Header() {
 
 
 
-      <li className="logo">
-        <a href="#" className="nav-link">
-          <span className="link-text logo-text">XAIPHRON</span>
+      <li className="logoc">
+        <a href="#" className="navc-link">
+          <span className="link-text logoc-text">XAIPHRON</span>
           <svg
 viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
    height="30px" width="30px"
@@ -32,7 +32,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
               <path
                 fill="currentColor"
                 d="m256 133.609375c-67.484375 0-122.390625 54.90625-122.390625 122.390625s54.90625 122.390625 122.390625 122.390625 122.390625-54.90625 122.390625-122.390625-54.90625-122.390625-122.390625-122.390625zm0 214.183594c-50.613281 0-91.792969-41.179688-91.792969-91.792969s41.179688-91.792969 91.792969-91.792969 91.792969 41.179688 91.792969 91.792969-41.179688 91.792969-91.792969 91.792969zm0 0"
-                className="fa-secondary"
+                className="fa-secondary" 
               ></path>
               <path
                 fill="currentColor"
@@ -59,8 +59,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="nav-item">
-        <a href="#" className="nav-link">
+      <li className="navc-item navc-link">
+       
   <svg height="30px" id="Layer_1" version="1.1" viewBox="0 0 16 16" width="30px"
   fill="currentColor" >
   <path d="M15.45,7L14,5.551V2c0-0.55-0.45-1-1-1h-1c-0.55,0-1,0.45-1,1v0.553L9,0.555C8.727,0.297,8.477,0,8,0S7.273,0.297,7,0.555
@@ -68,7 +68,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
   className="fa-secondary"></path></svg>
 
           <span className="link-text">Home</span>
-        </a>
+    
       </li>
 
 
@@ -78,8 +78,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="nav-item">
-        <a href="#" className="nav-link">
+      <li className="navc-item navc-link">
+
 <svg version="1.1" id="Capa_1"
    viewBox="0 0 317.037 317.037" height="30px" width="30px"
    fill="currentColor">
@@ -97,7 +97,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 </svg>
 
           <span className="link-text">Blog</span>
-        </a>
+
       </li>
 
 
@@ -109,8 +109,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
- <li className="nav-item">
-        <a href="#" className="nav-link">
+ <li className="navc-item navc-link">
   <svg height="30px" id="Layer_1" version="1.1" width="30px"
   fill="currentColor"
    viewBox="0 0 482.13 482.13">
@@ -216,7 +215,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
           <span className="link-text">Projects</span>
-        </a>
+
       </li>
 
 
@@ -224,8 +223,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="nav-item">
-        <a href="#" className="nav-link">
+      <li className="navc-item navc-link">
+    
  <svg version="1.1" id="Capa_1"
    viewBox="0 0 512 512"  height="30px" width="30px"
    fill="currentColor">
@@ -252,7 +251,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 </svg>
           <span className="link-text">C.V.</span>
-        </a>
+
       </li>
 
 

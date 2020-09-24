@@ -1,27 +1,34 @@
 import React from 'react';
 import "../../Assets/css/default.min.css"
+import mainimage from "../../Assets/Images/Home/main.jpg"
+
+
 function Homepage() {
   return (
   	<html>
   	<body>
-  	<main>
-<div className="intro-box">
-Hi. I am Mayur. I am a 23 years old Mechanical Engineer currently working for Honeywell. Outside of my day job I love to
-code, read and play video games. Please find all the resources I used in the github repo here. Thanks for visting. You can follow
-me on all the social validation platforms mentioned in the footer.
+  	<main style={{zIndex:"10"}}>
+ <div className="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 align-items-center ">
+ <img src={mainimage} className="photo" />
+ </div>
+<div className="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 align-items-center text-justify">
 
-Hi. I am Mayur. I am a 23 years old Mechanical Engineer currently working for Honeywell. Outside of my day job I love to
-code, read and play video games. Please find all the resources I used in the github repo here. Thanks for visting. You can follow
-me on all the social validation platforms mentioned in the footer.
+What is Lorem Ipsum?
 
-Hi. I am Mayur. I am a 23 years old Mechanical Engineer currently working for Honeywell. Outside of my day job I love to
-code, read and play video games. Please find all the resources I used in the github repo here. Thanks for visting. You can follow
-me on all the social validation platforms mentioned in the footer.
-
-
-https://colorhunt.co/palette/9506
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+unknown printer took a galley of type and scrambled it to make a type specimen book. 
+It has survived not only five centuries, but also the leap into electronic typesetting, 
+remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+sheets containing Lorem Ipsum passages, and more recently with
+ desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu
 </div>
+
+
 </main>
+
+
+
 </body>
 </html>
   );

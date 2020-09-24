@@ -6,8 +6,9 @@ function Footer() {
 
 
 <footer>
-
 </footer>
+
+
   );
 }
 

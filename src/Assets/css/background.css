@@ -1,0 +1,7 @@
+.bg-body{
+	height:100vh;
+	width:100vw;
+	background-image: linear-gradient(20deg, #1eb2a6, #ffffff);
+	position: fixed;
+
+}

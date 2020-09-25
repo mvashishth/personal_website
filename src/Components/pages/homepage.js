@@ -8,21 +8,22 @@ function Homepage() {
   	<html>
   	<body>
   	<main style={{zIndex:"10"}} className="homepage-main">
- <div className="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 align-items-center ">
- <img src={mainimage} className="photo" />
+ <div className="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+ <div style={{textAlign:"center"}}>
+ <img src={mainimage} className="homepage-photo center-block" />
  </div>
-<div className="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 align-items-center text-justify bottom-scroll">
-What is Lorem Ipsum?
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-unknown printer took a galley of type and scrambled it to make a type specimen book. 
-It has survived not only five centuries, but also the leap into electronic typesetting, 
-remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-sheets containing Lorem Ipsum passages, and more recently with
- desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu
+ </div>
+ <div className="col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 align-items-center text-justify bottom-scroll">
+ <div className="homepage-bio">
+Hi. My name is Mayur. I am a 23 years old Mechancial Design Engineer. Currently I am working for Honeywell UOP.
+I graduated from Panjab University with Bachelors in Mechancial Engineering. In the past I've been a video editor, a graphic
+designer, a theatre actor and an esports journalist. These days I am more interested in everything revolving around tech. I like to
+code, read books and books in my free time. I plan to work in tech one day. This website is the first step towards it. Please feel
+free to hit me up on any of the social validation platforms 
+<span className="home-bg-scrn-footer"> given below.</span>
+<span className="home-small-scrn-header"> given above.</span>
 </div>
-
+</div>
 </main>
 
 

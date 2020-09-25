@@ -3,12 +3,29 @@
 }
 
 
+.home-small-scrn-header{
+  display: none;
+}
+
+.homepage-bio{
+  font-family: 'Varela', sans-serif;
+  font-size: 20px;
+}
+
+ .homepage-photo {
+
+  width: 250px;
+  height: 250px;
+  margin-top: 25vh;
+  margin-bottom: 2rem;
+  border-radius: 50%;
 
 
 
-
+ }
 
 @media only screen and (max-width: 599px) {
+
 
   .homepage-main {
   	padding-top: 0;
@@ -17,31 +34,34 @@
 
 }
 
-.photo {
+.homepage-bio{
+  font-family: 'Varela', sans-serif;
+  font-size: 13px;
+}
+
+.homepage-photo {
 
   margin-top: 20vh;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+
+
  }
+
  .bottom-scroll{
   margin-bottom: 10vh;
 }
+
+.home-bg-scrn-footer{
+  display: none;
+}
+
+.home-small-scrn-header{
+  display: inline;
+}
+
 }
 
 
-
-
-
-
-
-
- .photo {
-
- 	width: 250px;
-	height: 250px;
-	margin-top: 25vh;
-  margin-bottom: 2rem; 
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 50%;
-
- }

@@ -1,0 +1,19 @@
+
+  .footer-custom-nav {
+    display:flex;
+    flex-direction: row;
+    width: 100px;
+    margin: 10px;
+  }
+
+  .ul-footer{
+    margin-bottom: 0;
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    width: 10vw;
+
+  }
+  .li-footer{
+    padding-left: 100px;
+  }

@@ -1,0 +1,47 @@
+.homepage-main {
+  margin-left: 7rem; 
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+
+  .homepage-main {
+  	padding-top: 0;
+  	padding-bottom: 0;
+    margin: 0;
+
+}
+
+.photo {
+
+  margin-top: 20vh;
+ }
+ .bottom-scroll{
+  margin-bottom: 10vh;
+}
+}
+
+
+
+
+
+
+
+
+ .photo {
+
+ 	width: 250px;
+	height: 250px;
+	margin-top: 25vh;
+  margin-bottom: 2rem; 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+
+ }

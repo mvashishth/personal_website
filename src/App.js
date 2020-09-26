@@ -15,7 +15,7 @@ function App() {
   return (
   	<Router>
     <div className="App">
-
+    <Footer />
     <Header />
 
     <Route exact path='/' component={Homepage} />
@@ -23,7 +23,7 @@ function App() {
 
 
     <Background/>
-    <Footer />
+
 
     </div>
     </Router>

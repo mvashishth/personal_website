@@ -18,7 +18,7 @@ function Homepage() {
 Hi. My name is Mayur. I am a 23 years old Mechancial Design Engineer. Currently I am working for Honeywell UOP.
 I graduated from Panjab University with Bachelors in Mechancial Engineering. In the past I've been a video editor, a graphic
 designer, a theatre actor and an esports journalist. These days I am more interested in everything revolving around tech. I like to
-code, read books and books in my free time. I plan to work in tech one day. This website is the first step towards it. Please feel
+code, read books and play videogames in my free time. I plan to work in tech one day. This website is the first step towards it. Please feel
 free to hit me up on any of the social validation platforms 
 <span className="home-bg-scrn-footer"> given below.</span>
 <span className="home-small-scrn-header"> given above.</span>

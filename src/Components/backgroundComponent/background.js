@@ -6,7 +6,7 @@ function Background() {
 
 
 <background>
-<body className="bg-body" style={{zIndex:"-1"}}>
+<body className="bg-body" style={{zIndex:"-10000"}}>
 </body>
 </background>
 

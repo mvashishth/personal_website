@@ -3,6 +3,7 @@ import{
 	Link
 }from 'react-router-dom';
 import "../../Assets/css/header.css";
+import pdf from "../../Components/resume/resume.pdf";
 function Header() {
   return (
 <header>
@@ -19,9 +20,11 @@ function Header() {
 
 
 
+      
 
       <li className="logoc">
-        <a href="#" className="navc-link">
+     
+        <Link to="/" className="navc-link">
           <span className="link-text logoc-text">MAYUR</span>
           <svg
 viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
@@ -48,7 +51,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
               ></path>
             </g>
           </svg>
-        </a>
+          </Link>
+   
       </li>
 
 
@@ -59,7 +63,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="navc-item navc-link">
+      <li className="navc-item">
+      <Link to="/" className="navc-link">
        
   <svg height="30px" id="Layer_1" version="1.1" viewBox="0 0 16 16" width="30px"
   fill="currentColor" >
@@ -68,7 +73,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
   className="fa-secondary"></path></svg>
 
           <span className="link-text">Home</span>
-    
+    </Link>
       </li>
 
 
@@ -78,8 +83,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="navc-item navc-link">
-
+      <li className="navc-item">
+<Link to="/Blog" className="navc-link">
 <svg version="1.1" id="Capa_1"
    viewBox="0 0 317.037 317.037" height="30px" width="30px"
    fill="currentColor">
@@ -97,7 +102,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 </svg>
 
           <span className="link-text">Blog</span>
-
+</Link>
       </li>
 
 
@@ -109,7 +114,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
- <li className="navc-item navc-link">
+ <li className="navc-item">
+<Link to="/Projects" className="navc-link">
   <svg height="30px" id="Layer_1" version="1.1" width="30px"
   fill="currentColor"
    viewBox="0 0 482.13 482.13">
@@ -215,7 +221,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
           <span className="link-text">Projects</span>
-
+</Link>
       </li>
 
 
@@ -223,8 +229,8 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="navc-item navc-link">
-    
+      <li className="navc-item">
+    <a href={pdf} className="navc-link">
  <svg version="1.1" id="Capa_1"
    viewBox="0 0 512 512"  height="30px" width="30px"
    fill="currentColor">
@@ -251,7 +257,7 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 </svg>
           <span className="link-text">C.V.</span>
-
+</a>
       </li>
 
 

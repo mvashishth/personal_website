@@ -43,12 +43,27 @@
   text-decoration: none;
   filter: grayscale(100%) opacity(1) ;
   transition: var(--transition-speed);
+  text-decoration: none;
 }
 
+
+
+.navc-link :active{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navc-link:link {
+  text-decoration: none;
+}
+.navc-link:visited {
+  text-decoration: none;
+}
 .navc-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
   color: var(--text-secondary);
+  text-decoration: none;
 }
 
 .link-text {
@@ -64,7 +79,9 @@
 }
 
 
-
+.link-test{
+    color: #fa744f;
+}
 .fa-primary {
   color: #f79071;
 }

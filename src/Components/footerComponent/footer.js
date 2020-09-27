@@ -1,6 +1,8 @@
 import React from 'react'; 
 import "../../Assets/css/footer.css"
-
+import{
+  Link
+}from 'react-router-dom';
 
 function Footer() {
   return (
@@ -26,7 +28,7 @@ function Footer() {
 
 
       <li className="footc-item footc-link">
-       
+       <a href="https://github.com/mvashishth">
 <svg version="1.1" height="30px" width="30px" fill="currentColor"
    viewBox="0 0 439 439">
 <g>
@@ -52,6 +54,7 @@ function Footer() {
     C438.536,184.851,428.728,148.168,409.132,114.573z" className="fa-secondary-footer"/>
 </g>
 </svg>
+</a>
       </li>
 
 
@@ -62,7 +65,7 @@ function Footer() {
 
 
       <li className="footc-item footc-link">
-
+<a href="https://www.linkedin.com/in/mayurvashishth/">
 <svg version="1.1" height="30px" width="30px" fill="currentColor"
    viewBox="0 0 24 24" >
 
@@ -70,7 +73,7 @@ function Footer() {
    <path d="m.396 7.977h4.976v16.023h-4.976z" className="fa-secondary-footer"/>
    <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" className="fa-primary-footer"/></svg>
 
-
+</a>
       </li>
 
 
@@ -83,6 +86,7 @@ function Footer() {
 
 
  <li className="footc-item footc-link">
+ <a href="https://twitter.com/xaiphron">
 <svg version="1.1" height="30px" width="30px" fill="currentColor"
    viewBox="0 0 512 512">
 <g>
@@ -99,7 +103,7 @@ function Footer() {
 </g>
 </svg>
 
-
+</a>
   
       </li>
 
@@ -109,7 +113,7 @@ function Footer() {
 
 
       <li className="footc-item footc-link">
-    
+    <a href="https://www.instagram.com/ra1nbowchicken/">"
 <svg version="1.1"
    viewBox="0 0 512 512" height="30px" width="30px" fill="currentColor">
 <g>
@@ -132,7 +136,7 @@ function Footer() {
 </g>
 </svg>
   
-
+</a>
       </li>
 
 

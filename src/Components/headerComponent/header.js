@@ -22,7 +22,7 @@ function Header() {
 
       <li className="logoc">
         <a href="#" className="navc-link">
-          <span className="link-text logoc-text">XAIPHRON</span>
+          <span className="link-text logoc-text">MAYUR</span>
           <svg
 viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
    height="30px" width="30px"

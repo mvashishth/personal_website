@@ -50,8 +50,11 @@
 
 .navc-link :active{
   text-decoration: none;
-  color: inherit;
 }
+.navc-link :focus{
+  text-decoration: none!important;
+}
+
 
 .navc-link:link {
   text-decoration: none;

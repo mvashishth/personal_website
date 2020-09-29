@@ -1,17 +1,63 @@
-import React from 'react';
+import React, {useState} from 'react';
 import{
 	Link
 }from 'react-router-dom';
 import "../../Assets/css/header.css";
 import pdf from "../../Components/resume/resume.pdf";
+import {ThemeProvider, createGlobalStyle} from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+.homepage-bio{
+color:${props=>props.theme.mode==='dark'?'#32e0c4':'#000000'}!important;
+}
+
+.bg-body{
+background-image:${props=>props.theme.mode==='dark'?'linear-gradient(20deg, #121212, #121212)':'linear-gradient(20deg, #28df99, #f6f7d4)'}!important;
+}
+
+
+.blog-content{
+color:${props=>props.theme.mode==='dark'?'#32e0c4':'#000000'}!important;
+}
+
+.blog-heading{
+color:${props=>props.theme.mode==='dark'?'#ff4b5c':'#132743'}!important;
+}
+
+.blog-tags{
+color:${props=>props.theme.mode==='dark'?'#f638dc':'#0d7377'}!important;
+}
+
+.blog-date{
+  color:${props=>props.theme.mode==='dark'?'#f638dc':'#0d7377'}!important;
+}
+  
+
+
+.blog-hyperlinks{
+  color:${props=>props.theme.mode==='dark'?'#ff4b5c':'#132743'}!important;
+}
+
+.projects{
+  color:${props=>props.theme.mode==='dark'?'#32e0c4':'#132743'}!important;
+}
+
+
+`
+
+
+
+
 function Header() {
+  const[theme,setTheme]=useState({mode:"dark"});
   return (
 <header>
-
+<ThemeProvider theme={theme}>
+<>
+<GlobalStyle/>
 <body className="bodyHeader">
 <nav className="navbarc" style={{zIndex:"1000"}}>
     <ul className="navbarc-nav">
-
 
 
 
@@ -54,13 +100,6 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
           </Link>
    
       </li>
-
-
-
-
-
-
-
 
 
       <li className="navc-item">
@@ -262,6 +301,34 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
+      <li className="navc-item">
+<Link to="/Blog" className="navc-link">
+<svg version="1.1" id="Capa_1"
+   viewBox="0 0 317.037 317.037" height="30px" width="30px"
+   fill="currentColor">
+<g>
+  <path d="M197.234,47.994h-67.537c0,95.635-11.786,124.19-24.024,140.687
+    c-12.238,16.491,4.531,27.924,4.531,27.924c25.373,15.708,41.429,71.453,44.698,83.691c-3.726,2.763-6.168,7.152-6.168,12.145
+    c0,7.419,5.336,13.565,12.368,14.876l-0.076-24.595l-0.016-5.151l-0.261-85.66l-14.191-14.191h33.82l-14.185,14.185l0.261,85.638
+    l0.016,5.183l0.076,24.612c7.103-1.256,12.51-7.43,12.51-14.892c0-5.319-2.752-9.981-6.897-12.684
+    c9.159-36.447,32.248-69.446,45.927-82.244c14.049-13.146,5.439-24.356,5.439-24.356
+    C194.965,147.045,197.234,47.994,197.234,47.994z" className="fa-secondary"/>
+  <path  d="M124.35,0v12.689h-8.039c-7.636,0-13.826,6.19-13.826,13.826s6.19,13.826,13.826,13.826h95.124
+    c7.636,0,13.826-6.19,13.826-13.826s-6.19-13.826-13.826-13.826H199.48V0H124.35z" className="fa-secondary"/>
+</g>
+
+</svg>
+
+          <span className="link-text">Blog</span>
+</Link>
+      </li>
+
+
+
+
+
+
+
 
 
 
@@ -269,9 +336,9 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
   </nav>
 
 </body>
+</>
 
-
-
+</ThemeProvider>
 </header>
   );
 }

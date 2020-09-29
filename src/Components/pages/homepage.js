@@ -1,6 +1,7 @@
 import React from 'react';
 import "../../Assets/css/homepage.css"
 import mainimage from "../../Assets/Images/Home/main.jpg"
+import {ThemeProvider} from 'styled-components';
 
 
 function Homepage() {
@@ -31,6 +32,7 @@ Also, feel free to copy whatever part of the website you want to.
 
 </body>
 </html>
+
   );
 }
 

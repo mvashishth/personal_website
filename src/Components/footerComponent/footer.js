@@ -113,7 +113,7 @@ function Footer() {
 
 
       <li className="footc-item footc-link">
-    <a href="https://www.instagram.com/ra1nbowchicken/">"
+    <a href="https://www.instagram.com/ra1nbowchicken/">
 <svg version="1.1"
    viewBox="0 0 512 512" height="30px" width="30px" fill="currentColor">
 <g>

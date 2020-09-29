@@ -26,7 +26,7 @@ It is a long established fact that a reader will be distracted by the readable c
   English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model 
   text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions 
   have evolved over the years, sometimes by accident, sometimes on purpose.
-<Link to="/Blog1" className="blog-hyperlinks" style={{color:'#132743', fontWeight:"bold"}}>[Read More]</Link>
+<Link to="/Blog1" className="blog-hyperlinks" style={{fontWeight:"bold"}}>[Read More]</Link>
 </p>
 <span className="blog-tags">Tags: Reddit</span>
 </div>
@@ -45,7 +45,7 @@ It is a long established fact that a reader will be distracted by the readable c
   English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model 
   text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions 
   have evolved over the years, sometimes by accident, sometimes on purpose.
-<Link to="/Blog1" className="blog-hyperlinks" style={{color:'#132743', fontWeight:"bold"}}>[Read More]</Link>
+<Link to="/Blog1" className="blog-hyperlinks" style={{fontWeight:"bold"}}>[Read More]</Link>
 </p>
 <span className="blog-tags">Tags: Reddit</span>
 </div>

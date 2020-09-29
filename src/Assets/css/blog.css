@@ -27,24 +27,21 @@
 .blog-hyperlinks{
 color: inherit;
 text-decoration: none!important;
+color: #132743;
 }
 
 .blog-hyperlinks:visited{
-color: inherit;
 text-decoration: none!important;
 }
 
 .blog-hyperlinks:link{
-color: inherit;
 text-decoration: none!important;
 }
 .blog-hyperlinks:active{
-color: inherit;
 text-decoration: none!important;
 }
 
 .blog-hyperlinks:hover{
-color: inherit;
 text-decoration: none!important;
 }
 

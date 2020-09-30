@@ -42,6 +42,19 @@ color:${props=>props.theme.mode==='dark'?'#f638dc':'#0d7377'}!important;
   color:${props=>props.theme.mode==='dark'?'#32e0c4':'#132743'}!important;
 }
 
+.colorModeLight{
+  display:${props=>props.theme.mode==='dark'?'none':'inline'}!important;
+}
+
+.colorModeDark{
+  display:${props=>props.theme.mode==='dark'?'inline':'none'}!important;
+}
+
+@media only screen and (max-width:599px){
+.coloModeText{
+display:none!important;
+}
+}
 
 `
 
@@ -301,26 +314,53 @@ viewBox="0 0 512 512" svg version="1.1" id="Capa_1"
 
 
 
-      <li className="navc-item">
-<Link to="/Blog" className="navc-link">
-<svg version="1.1" id="Capa_1"
-   viewBox="0 0 317.037 317.037" height="30px" width="30px"
-   fill="currentColor">
-<g>
-  <path d="M197.234,47.994h-67.537c0,95.635-11.786,124.19-24.024,140.687
-    c-12.238,16.491,4.531,27.924,4.531,27.924c25.373,15.708,41.429,71.453,44.698,83.691c-3.726,2.763-6.168,7.152-6.168,12.145
-    c0,7.419,5.336,13.565,12.368,14.876l-0.076-24.595l-0.016-5.151l-0.261-85.66l-14.191-14.191h33.82l-14.185,14.185l0.261,85.638
-    l0.016,5.183l0.076,24.612c7.103-1.256,12.51-7.43,12.51-14.892c0-5.319-2.752-9.981-6.897-12.684
-    c9.159-36.447,32.248-69.446,45.927-82.244c14.049-13.146,5.439-24.356,5.439-24.356
-    C194.965,147.045,197.234,47.994,197.234,47.994z" className="fa-secondary"/>
-  <path  d="M124.35,0v12.689h-8.039c-7.636,0-13.826,6.19-13.826,13.826s6.19,13.826,13.826,13.826h95.124
-    c7.636,0,13.826-6.19,13.826-13.826s-6.19-13.826-13.826-13.826H199.48V0H124.35z" className="fa-secondary"/>
-</g>
+      <li className="navc-item navc-link" onClick={e=>setTheme(theme.mode==='dark'?{mode:'light'}:{mode:'dark'})}>
 
-</svg>
+          <svg
+            className="colorModeDark"
+            height="30px"
+            width="30px"
+            viewBox="0 0 512 512"
+         
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                class="fa-secondary"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                class="fa-primary"
+              ></path>
+            </g>
+          </svg>
+                    <span className="link-text colorModeDark coloModeText">Light</span>
+          <svg
+            className="colorModeLight"
+            height="30px"
+            width="30px"
 
-          <span className="link-text">Blog</span>
-</Link>
+            viewBox="0 0 512 512"
+   
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                class="fa-secondary"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                class="fa-primary"
+              ></path>
+            </g>
+          </svg>
+          <span className="link-text colorModeLight coloModeText">Dark</span>
+
+
       </li>
 
 
